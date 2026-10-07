@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Fill UP</title>
+    <style>
+        fieldset {
+            border: 1px solid black;
+
+            padding: 5px;
+            margin: 10px;
+        }
+
+        .personal label {
+            /* display: block; */
+            padding: 5px;
+        }
+
+        .line {
+            display: block;
+            padding-top: 10px;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+        }
+
+        .study {
+            display: block;
+            padding-top: 10px;
+        }
+
+        .file {
+            width: auto;
+            margin-right: 10px;
+        }
+
+        .detail {
+            display: block;
+            padding-top: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Job Application Form</h2>
+    </header>
+
+
+    <main>
+        <section>
+            <form>
+
+
+                <fieldset class="personal">
+                    <legend>Personal Details</legend>
+
+                    <span class="line"><label for="name">Full Name :</label>
+                        <input type="text" name="" id="name"></span>
+
+                    <span class="line"><label for="email">Email Address:</label>
+                        <input type="email" name="" id="email"></span>
+
+
+                    <span class="line"><label for="number">Phone Number:</label>
+                        <input type="number" name="" id="number"></span>
+
+                    <span class="line"><label for="birth">Date of Birth:</label>
+                        <input type="date" name="" id="birth"></span>
+                    <span class="line">Gender:
+
+                        <input type="radio" name="gender" id="sele">
+                        <label for="sele">Male</label>
+
+                        <input type="radio" name="gender" id="meye">
+                        <label for="meye">Female</label>
+
+
+                    </span>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Personal Info</legend>
+
+                    <span class="study">
+                        Highest Education Degree [ Select Option / Dropdown Menu 👇 ] :<br>
+
+                        <input type="radio" name="degree" id="ssc">
+                        <label for="ssc">SSC</label>
+                        <input type="radio" name="degree" id="hsc">
+                        <label for="hsc">HSC</label>
+
+                        <input type="radio" name="degree" id="bsc">
+                        <label for="bsc">BSc</label>
+
+                        <input type="radio" name="degree" id="msc">
+                        <label for="msc">MSc</label>
+
+                    </span>
+
+
+                    <span class="study">
+                        Skills (Select all that apply): <br>
+
+                        <input type="checkbox" name="" id="html">
+                        <label for="html">HTML</label>
+
+
+                        <input type="checkbox" name="" id="css">
+                        <label for="css">CSS</label>
+
+
+                        <input type="checkbox" name="" id="java">
+                        <label for="java">JavaScript</label>
+
+                        <input type="checkbox" name="" id="git">
+                        <label for="git">Git</label>
+                    </span>
+
+                    <span class="study">
+
+                        Upload Resume (PDF/Doc):
+                        <label for="file" class="file"></label>
+                        <input type="file" name="" id="file">
+
+                    </span>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Additional Details</legend>
+
+                    <span class="detail">
+                        Cover Letter / Message: <br>
+                        <textarea cols="75" rows="7" name="" id=""></textarea>
+
+                    </span>
+
+
+                    <span class="detail">
+                        Preferred Working Mode:
+
+                        <label for="work-mode" class="file"></label>
+                        <input list="modes" id="work-mode" placeholder="Type or select...">
+
+                        <datalist id="modes">
+                            <option value="Remote"></option>
+                            <option value="On-site"></option>
+                            <option value="Hybrid"></option>
+
+                        </datalist>
+
+
+
+
+                    </span>
+
+
+
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </form>
+
+
+        </section>
+
+    </main>
+
+    <br> <br>
+    <footer align="center">
+        <small> &copy;2035 No Copyright man. Just Kidding. All Rights are not Reserved.</small>
+
+    </footer>
+
+
+</body>
+
+</html>

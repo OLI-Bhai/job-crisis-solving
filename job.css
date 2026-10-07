@@ -1,7 +1,7 @@
 .container {
     display: flex;
     align-items: center;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     padding-left: 15px;
 }
 
@@ -27,4 +27,9 @@ footer {
 
 figcaption {
     text-align: center;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
 }
