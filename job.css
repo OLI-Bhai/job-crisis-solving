@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: center;
+    border: 1px solid tomato;
+    padding-left: 15px;
+}
+
+.dau img {
+    height: 300px;
+    width: 500px;
+    align-items: right;
+}
+
+.nau {
+    text-align: left;
+    height: 300px;
+    width: 750px;
+}
+
+#ok {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
